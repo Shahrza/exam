@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <!-- Css Include -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/desktop.css">
+</head>
+<body>
+
+<!-- Main Content -->
+<main>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-header-container">
+                <img class="sidebar-header-container-img" src="./src/img/lights-5580916_1920.jpg" alt="">
+                <div class="sidebar-header-container-box">
+                    <h2 class="sidebar-header-container-box-name">Pasha Life</h2>
+                    <p class="sidebar-header-container-box-email">pasha@email.com</p>
+                </div>
+            </div>
+
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item active"><i class="icon-sidebar"></i>Dashboard</li>
+                <li class="sidebar-list-item">Dashboard</li>
+                <li class="sidebar-list-item">Dashboard</li>
+                <li class="sidebar-list-item">Dashboard</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <div class="header-container">
+                <i class="icon-bell"></i>
+                <img class="header-container-img" src="./src/img/lights-5580916_1920.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="search">
+                <h2 class="search-header">Axtarış</h2>
+                <div class="search-container">
+                    <div>
+                        <input class="main-input" placeholder="Ad, Soyad" type="text">
+                        <input class="main-input" placeholder="Struktur" type="text">
+                        <input class="main-input" placeholder="Vəzifə" type="text">
+                    </div>
+
+                    <button class="main-btn">Axtar</button>
+                </div>
+            </div>
+
+            <div class="tree">
+                <div class="structure">
+                    <h2 class="structure-header">Struktur</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h2 class="card-header-text">Struktur 2</h2>
+                                <div class="card-header-badge">
+                                    <span class="badger badger-purple">2222</span>
+                                    <span class="badger badger-primary">2222</span>
+                                    <span class="badger badger-success">2222</span>
+                                    <span class="badger badger-warning">2222</span>
+                                </div>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quae.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<!-- Main Content End -->
+
+<!-- Loading -->
+<div class="app-loading">
+    <div class="app-loading__ripple">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Loading End -->
+
+
+<!-- Js Include -->
+<script src="./assets/js/template.js"></script>
+</body>
+</html>

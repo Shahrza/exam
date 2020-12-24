@@ -1,26 +1,21 @@
-# HTML_TEMPLATE
-`İşlənəçək əsas qovluq src qovluqudur. JavaScript və SASS fayları src qovluqunun içərsindədir`
+# exam-vue
 
-## NPM modullarının qurulması və işə salınması
+> A Vue.js project
 
-#### Module yükləmə
-`npm install run`
+## Build Setup
 
-#### Production prosesində build etmə
-`npm run dev`
+``` bash
+# install dependencies
+npm install
 
+# serve with hot reload at localhost:8080
+npm run dev
 
-#### Development prosesində build etmə
-`npm run watch`
+# build for production with minification
+npm run build
 
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-### Build olan fayllar assets qovluquna köcürülür
-
-#### JavaScript 
-`assets/js/script.js`
-`assets/js/app.js`
-
-#### Css 
-`assets/css/app.css`
-`assets/css/desktop.css`
-`assets/css/mobile.css`
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

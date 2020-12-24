@@ -1,0 +1,57 @@
+.sl-vue-tree {
+    margin-left: 1rem;
+}
+
+.sl-vue-tree-title {
+    color: #828094;
+}
+
+.sl-vue-tree-node-is-folder .sl-vue-tree-title {
+    color: #507FF9 !important;
+}
+
+.badger-lt {
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+    background: #F4F5F9;
+    color: #637DF1;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -1rem;
+    z-index: 9;
+    border: 2px solid #fff;
+}
+
+.structure {
+    height: 100%;
+}
+
+.sidebar{
+    width: 24vw;
+}
+
+.sidebar-header-container{
+    margin-top: 48px;
+}
+
+.active{
+    color:#507FF9 ;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.back:hover{
+    color: #507ff9;
+}
+.back:hover .back-icon{
+    background: #507ff9;
+}
+
+.tree-chart-box{
+    height: 100%;
+}

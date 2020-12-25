@@ -16,7 +16,8 @@
         <div class="tree">
             <div class="structure">
                 <h2 class="structure-header">Struktur</h2>
-                <div class="accordion" id="accordionStructure" v-for="(item, index) in 11">
+                <div @click="toggleCollapse(index)" class="accordion" id="accordionStructure"
+                     v-for="(item, index) in 11">
                     <div class="card">
                         <div class="card-header" :id="'heading' + index" data-toggle="collapse"
                              :data-target="'#collapse' + index"
@@ -45,7 +46,7 @@
 
             <div class="tree-chart">
                 <vue-tree-chart
-                    style="width: 55vw; height: 100vh;"
+                    style="width: 58vw; height: 100vh;"
                     :linkStyle="'straight'"
                     :dataset="richMediaData"
                     :config="treeConfig"
@@ -205,10 +206,14 @@
             }
         },
         methods: {
-            goInfo(node){
+            toggleCollapse(i) {
+                $('#heading' + i + ' ' + '.icon-chevron-down').toggleClass('active-accordion')
+            },
+            goInfo(node) {
                 this.$router.replace({name: 'info', params: {data: node}})
             }
         }
     }
 </script>
+
 

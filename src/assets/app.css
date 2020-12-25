@@ -55,3 +55,15 @@
 .tree-chart-box{
     height: 100%;
 }
+
+.active-accordion{
+    transform: rotate(180deg);
+}
+
+.card-header{
+    cursor: pointer;
+}
+
+.tree-chart{
+    margin: 0 0 0 1rem !important;
+}
